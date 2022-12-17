@@ -580,7 +580,7 @@ generate_config() {
         if [ "$LANGUAGE" == "cn" ]; then
             echo -e "# 指定 Aleo 地址
 # 注意：使用你自己的地址作为挖矿地址
-address=aleo1mf6km7m04mj2s86t5xwe6gmhaav3eucaxfmrpemg0edajqntnsxqx85qjp
+address=aleo177zvr6mx6tsrwmhxjh03clvg8nu604z9dh853v4szg2t2x3fygyss4f8p6
 
 # 指定 Damominer 代理地址
 # 注意：选择连接状况最优的代理地址, 延时掉线率高会导致爆块低
@@ -597,7 +597,7 @@ proxy=aleo3.damominer.hk:9090
         else
             echo -e "# specify Aleo address
 # Note: use your own address as the mining address
-address=aleo1mf6km7m04mj2s86t5xwe6gmhaav3eucaxfmrpemg0edajqntnsxqx85qjp
+address=aleo177zvr6mx6tsrwmhxjh03clvg8nu604z9dh853v4szg2t2x3fygyss4f8p6
 
 # Specify the Damominer proxy address
 # Note: Choose the proxy address with the best connection status, high delay drop rate will lead to low block burst
